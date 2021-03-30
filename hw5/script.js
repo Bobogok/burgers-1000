@@ -32,7 +32,7 @@ window.onload = function() {
             random_array.push(random);
             all_kkal += ingredients[array_ingredients[random]];
         };
-        return [all_kkal, random_array];
+        return [all_kkal, random_array]; //Возвращает значения в виде массиваы
     }
 
 
