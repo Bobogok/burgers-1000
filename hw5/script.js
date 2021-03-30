@@ -13,11 +13,6 @@ window.onload = function() {
     var renderList = document.getElementById('renderList');
     var keys_ingredients = Object.keys(ingredients);
 
-    // var burger1 = ['tomato', 'bread', 'meat', 'salat'];
-    // var burger2 = ['tomato', 'mayo', 'salat'];
-    // var salat = ['oil', 'salat', 'tomato'];
-    // var potatoe = ['potatoe', 'oil'];
-
 
     function create_ul_main(title, array_ingredients) {
         var add_name = document.createElement('h2')
